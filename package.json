@@ -1,0 +1,23 @@
+{
+  "name": "keiko-corp",
+  "version": "1.0.0",
+  "description": "The greatest company ever created",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server --files '**/*.css, **/*.html, **/*.js, !node_modules/**/*' --directory --port 1313 --browser 'FirefoxQuantumDeveloperEdition'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amarkpark/keiko-corp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amarkpark/keiko-corp/issues"
+  },
+  "homepage": "https://github.com/amarkpark/keiko-corp#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7"
+  }
+}
